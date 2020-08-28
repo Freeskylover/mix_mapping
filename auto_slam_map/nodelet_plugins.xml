@@ -1,0 +1,22 @@
+
+<!-- 
+<library path="lib/libimageProjection_nodelet">
+  <class name="imageProjection_nodelet" type="ImageProjection" base_class_type="nodelet::Nodelet" />
+</library>
+
+<library path="lib/libfeatureAssociation_nodelet">
+  <class name="featureAssociation_nodelet" type="FeatureAssociation" base_class_type="nodelet::Nodelet" />
+</library> -->
+
+<library path="lib/libprefiltering_nodelet">
+  <class name="hdl_graph_slam/PrefilteringNodelet" type="hdl_graph_slam::PrefilteringNodelet" base_class_type="nodelet::Nodelet" />
+</library>
+
+<library path="lib/libfloor_detection_nodelet">
+  <class name="hdl_graph_slam/FloorDetectionNodelet" type="hdl_graph_slam::FloorDetectionNodelet" base_class_type="nodelet::Nodelet" />
+</library>
+
+
+<library path="lib/libauto_slam_nodelet">
+  <class name="hdl_graph_slam/AutoSlamNodelet" type="hdl_graph_slam::AutoSlamNodelet" base_class_type="nodelet::Nodelet" />
+</library>
